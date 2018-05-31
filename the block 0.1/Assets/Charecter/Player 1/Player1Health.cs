@@ -25,7 +25,7 @@ public class Player1Health : MonoBehaviour {
     void DealDamage(float damageValue)
     {
         // Deduct the damage dealt from the characters health
-        CurrentHealth - damageValue;
+        CurrentHealth = damageValue;
         healthbar.value = CalculateHealth();    
         // If the character is out of health, die!
         if (CurrentHealth <= 0)
