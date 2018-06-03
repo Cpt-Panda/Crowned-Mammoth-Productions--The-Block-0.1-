@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/The Block 0.1.unity
-    guid: 3e28fee8ffeb0c2488de73378581df10
-  - enabled: 1
     path: Assets/UI/Menu.unity
     guid: 835027a7100d38c45baf4ca676c92b70
+  - enabled: 1
+    path: Assets/The Block 0.1.unity
+    guid: 3e28fee8ffeb0c2488de73378581df10
