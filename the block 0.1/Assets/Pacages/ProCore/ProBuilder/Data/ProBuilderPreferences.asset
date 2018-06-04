@@ -16,6 +16,7 @@ MonoBehaviour:
   m_Int_keys:
   - pbHandleAlignment
   - pbDefaultEditLevel
+  - pbDefaultSelectionMode
   m_Float_keys:
   - pbEditorScroll.x
   - pbEditorScroll.y
@@ -24,9 +25,9 @@ MonoBehaviour:
   m_Color_keys: []
   m_Material_keys: []
   m_Bool_values: 01
-  m_Int_values: 0000000001000000
+  m_Int_values: 000000000000000001000000
   m_Float_values:
-  - 0
+  - 30
   - 0
   m_String_values:
   - Assets/Pacages/ProCore/ProBuilder/Data/Default Material Palette.asset
