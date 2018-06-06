@@ -1001,6 +1001,20 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 114264563470362884, guid: 02a6b0a495cc1464082b742ae986596a,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114094910807889506, guid: 02a6b0a495cc1464082b742ae986596a,
+        type: 2}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1426235133001114, guid: 02a6b0a495cc1464082b742ae986596a, type: 2}
+      propertyPath: m_Name
+      value: InventorySlot
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 02a6b0a495cc1464082b742ae986596a, type: 2}
   m_IsPrefabParent: 0
@@ -2303,11 +2317,27 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1809321790}
+--- !u!1 &1878462735 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1426235133001114, guid: 02a6b0a495cc1464082b742ae986596a,
+    type: 2}
+  m_PrefabInternal: {fileID: 732746640}
 --- !u!224 &1878462736 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 224168914021468896, guid: 02a6b0a495cc1464082b742ae986596a,
     type: 2}
   m_PrefabInternal: {fileID: 732746640}
+--- !u!114 &1878462737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1878462735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ef7af04d799c934f81cd8ead0da127a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1888405631
 GameObject:
   m_ObjectHideFlags: 0
